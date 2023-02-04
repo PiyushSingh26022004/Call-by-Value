@@ -1,0 +1,53 @@
+#include <iostream>
+
+using namespace std;
+
+double findSum(double x, double y)
+
+{
+
+    return x + y;
+
+}
+
+double findDifference(double x, double y)
+
+{
+
+    return x - y;
+
+}
+
+double findProduct(double x, double y)
+
+{
+
+    return x * y;
+
+} 
+
+double findQuotient(double x, double y)
+
+{
+
+    return x / y;
+
+}
+
+int main()
+
+{
+
+    double value1 = 10.45, value2 = 6.28;    
+
+    cout << "The sum is: " << findSum(value1, value2) << "\n\n";
+
+    cout << "The difference is: " << findDifference(value1, value2) << "\n\n";
+
+    cout << "The product is: " << findProduct(value1, value2) << "\n\n";
+
+    cout << "The quotient is: " << findQuotient(value1, value2) << "\n\n"; 
+
+    return 0;
+
+}
